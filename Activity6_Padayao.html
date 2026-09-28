@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAN's Creatives</title>
+    <style>
+        /* General Page Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+
+        .brand-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4af37; /* Gold hover effect */
+        }
+
+        /* Main Container & Card Layout */
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Formatted Circular Images */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%; /* Makes image perfectly rounded */
+            border: 4px solid #d4af37; /* Gold border */
+            object-fit: cover;
+        }
+
+        /* Typography */
+        .card h1 {
+            font-size: 1.8rem;
+            letter-spacing: 1.5px;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+
+        .tagline {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #d4af37;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .description {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        /* Call-To-Action Button */
+        .cta-btn {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            border: 2px solid #1a1a1a;
+            padding: 12px 28px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #d4af37;
+            border-color: #d4af37;
+            color: #ffffff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Dark Navigation Bar -->
+    <header>
+        <div class="brand-name">Ian's Creatives</div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="ABOUT_SECTION.html">ABOUT</a>
+            <a href="GALERRY_SECTION.html">GALLERY</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <div class="card">
+            <!-- Three Circular Images with Gold Borders -->
+            <div class="image-container">
+                <img src="logo.jpg" alt="Creator Photo 1" class="profile-img">
+                <img src="pfp-1.png" alt="Creator Photo 2" class="profile-img">
+                <img src="logo 2.jpg" alt="Creator Photo 3" class="profile-img">
+            </div>
+
+            <!-- Content -->
+            <h1>EXPERIENCE THE CREATIVE</h1>
+            <p class="tagline">Innovate • Design • Inspire</p>
+            <p class="description">
+                Welcome to my creative portfolio. I specialize in web design, digital graphics, and UI/UX solutions.
+                Through thoughtful layout structure, functional navigation, and modern aesthetics, I bring visual ideas to life.
+            </p>
+
+            <!-- Call-to-Action Button -->
+            <button class="cta-btn">LEARN MORE</button>
+        </div>
+    </main>
+
+    <!-- Black Footer -->
+    <footer>
+        &copy; 2026 Padayao Zedric Creatives Creatives
+    </footer>
+
+</body>
+</html>
+
